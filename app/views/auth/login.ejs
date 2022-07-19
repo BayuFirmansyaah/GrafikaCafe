@@ -1,0 +1,27 @@
+<%- include('../templates/header') %>
+
+<section class="login">
+  <div class="wrap-login">
+      <h1 class="text-login text-center f-nunito-6 mt-5">Selamat Datang di <br> Grafika Cafe</h1>   
+
+      <div class="content">
+        <div id="notif">
+
+        </div>
+
+         <form class="form-login" id="login">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" autocomplete="off" class="form-control" id="username" name="username" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">
+            <label for="password">Password</label>
+            <input type="password" autocomplete="off" class="form-control" id="password" name="password">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        
+      </div>
+  </div>
+</section>
+
+<%- include('../templates/footer') %>
